@@ -1,7 +1,7 @@
 function calculate() {
-  let firstValue = parseFloat(document.getElementById("firstValue").value);
+  let firstValue = Number(document.getElementById("firstValue").value);
   let operator = document.getElementById("operator").value;
-  let secondValue = parseFloat(document.getElementById("secondValue").value);
+  let secondValue =     Number(document.getElementById("secondValue").value);
 
   let result;
   if (operator === "+") {
