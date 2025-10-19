@@ -11,7 +11,7 @@ function calculate() {
   } else if (operator === "*") {
     result = firstValue * secondValue;
   } else if (operator === "/") {
-    if (num2 === 0) {
+    if (secondValue === 0) {
       result = "invalid inpute, cannot be divided by 0";
     } else {
       result = firstValue / secondValue;
