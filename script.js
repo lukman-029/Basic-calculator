@@ -14,7 +14,7 @@ function calculate() {
     if (num2 === 0) {
       result = "invalid inpute, cannot be divided by 0";
     } else {
-      result = num1 / num2;
+      result = firstValue / secondValue;
     }
   } else {
     result = "Invalid operator";
